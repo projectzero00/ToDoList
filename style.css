@@ -1,0 +1,184 @@
+body {
+    background: #212121;
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+    display: flex;
+    margin: 10px auto 10px auto;
+    justify-content: center;
+    color: rgb(220, 220, 231)
+}
+
+.container {
+    display: flex;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: 5px 5px 8px #121212, -5px -5px 16px #303030;
+    height: 250px;
+    width: 400px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.toDo-Form {
+    display: flex;
+    width: 350px;
+    height: 25px;
+    margin: 20px auto auto auto;
+    justify-content: space-between;
+}
+
+#toDo-Input {
+    border: none;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: inset 2px 2px 4px #121212, inset -2px -2px 4px #303030;
+    color: rgb(220, 220, 231);
+    text-align: center;
+}
+
+.btn-Submit {
+    border: none;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 2px 2px 4px #121212, -2px -2px 4px #303030;
+    color: rgb(220, 220, 231);
+    cursor: pointer;
+}
+
+.btn-NewTab {
+    border: none;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 2px 2px 4px #121212, -2px -2px 4px #303030;
+    color: rgb(220, 220, 231);
+    cursor: pointer;
+}
+
+.select {
+    border: none;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #121212, -2px -2px 4px #303030;
+    color: rgb(220, 220, 231);
+    cursor: pointer;
+    background: #212121;
+    appearance: none;
+    padding: 6px;
+}
+
+
+.toDoList {
+    display: flex;
+    height: 165px;
+    width: 380px;
+    margin: auto;
+    border-radius: 8px;
+    background: #212121;
+    box-shadow: inset 5px 5px 8px #121212, inset -5px -5px 8px #303030;
+    overflow: auto;
+}
+
+
+.deleteTab {
+    border: none;
+    border-radius: 30px;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    background: #333;
+    box-shadow: 2px 2px 4px #121212, -1px -1px 3px #303030;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    text-align: center;
+}
+
+.completedBtn {
+    border: none;
+    border-radius: 30px;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    background: #333;
+    box-shadow: 2px 2px 4px #121212, -1px -1px 3px #303030;
+    color: rgb(21, 221, 88);
+    cursor: pointer;
+    text-align: center;
+}
+
+.task {
+    display: flex;
+    width: 280px;
+    border: none;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: inset 2px 2px 4px #121212, inset -2px -2px 4px #303030;
+    color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    margin: 8px;
+    justify-content: space-between;
+}
+
+.taskCompleted {
+    display: flex;
+    width: 280px;
+    border-radius: 20px;
+    background: #212121;
+    box-shadow: inset 2px 2px 4px #121212, inset -2px -2px 4px #303030;
+    color: rgb(4, 99, 36);
+    text-decoration: line-through;
+    padding: 3px 10px;
+    margin: 8px;
+    justify-content: space-between;
+}
+
+.submitTaskDiv {
+    display: flex;
+}
+
+.notdisplayed {
+    display: none;
+}
+
+.displayed {
+    height: 165px;
+    width: 380px;
+    display: block;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #696969 #DFE9EB;
+  }
+  
+
+  *::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: #696969;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #959595;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #959595;
+  }

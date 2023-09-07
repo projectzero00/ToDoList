@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>ToDoList</h1>
+    </header>
+
+    <main class="container">
+
+        <form name="toDo" class="toDo-Form">
+
+            <select name="list" class="select"><option disabled selected>Lists</option></select>
+
+            <input type="text" maxlength="35" id="toDo-Input"  placeholder="e.g. Make breakfast" required>
+            <button type="submit"  class="btn-Submit">Submit</button>
+            <button type="submit" class="btn-NewTab">New Tab</button>
+        </form>
+
+        <div class="toDoList"></div>
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
